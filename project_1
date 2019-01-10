@@ -1,0 +1,26 @@
+#stats counter
+#created by: D. Morris January 2019
+#purpose: Stat counter for work purposes:
+print('Welcome, this program will keep your stats handy. Lets get started >> :')
+import time
+time.sleep(3)
+
+#get user input
+print("Are you adding a new victim ('new') or a notification ('release')? >>:") 
+victim= input('')
+if victim == 'new':
+  print('One new victim added to your stats! Keep up the good work! >> :')
+else:
+  print('One notification added to your stats! Great job! >> :')
+
+##need to count the victims here i presume?
+
+##add the counting and totals to the code below:
+
+print("Are you finished? ('yes' or 'no'>> :")
+finished = input('')
+if finished == 'yes':
+  print('Great work today! Here are your totals: >> :')
+else:
+  print('Okay! What else can I help calculate? >> :')
+#This is where I need help calculating and putting the program back in to the loop again!
